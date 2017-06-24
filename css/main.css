@@ -1,0 +1,218 @@
+/*********Base Styles*******/
+.body{
+  font-family: 'Arya', sans-serif;
+}
+
+
+
+
+
+/***** GRID *****/
+
+.full-width {
+width: 1200px;
+margin: 0 auto;
+}
+
+
+.half-width {
+      width: 49%;
+      display: inline-block;
+}
+.third-width {
+display:inline-block;
+
+}
+
+/****** HEADER ******/
+
+header{
+  height:800px;
+  background:#ffffaa;
+  border-top:white solid 10px;
+  background: url('../img/mural1.png');
+  background-size: cover;
+}
+
+
+
+nav {
+    float:right;
+}
+nav ul li {
+    display: inline-block;
+    float:right;
+  }
+nav ul li a  {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    padding-left: 80px;
+    font-family:'Arya', serif;
+
+
+}
+
+header h1 {
+    width: 1000px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 82px;
+    line-height: 80px;
+    color: white;
+    text-shadow: 5px 4px #020403;
+    padding-top: 180px;
+
+  }
+  header h2 {
+      width: 100%;
+      font-family: 'Arya', sans-serif;
+      font-size: 60px;
+      line-height: 80px;
+      color: black;
+      padding-top: : 80px;
+      margin:0px;
+  }
+  header h2 span {
+      color:#3cc8c8;
+      text-shadow: 3px;
+  }
+
+
+
+
+/*********MISSION*******/
+#mission {
+  background: lightsteelblue;
+  margin:0px;
+  padding:0px;
+  border:2px;
+  height:600px;
+}
+
+#mission h4{
+  font-family: 'Ayra', sans-serif;
+  font-size:32px;
+  font-weight:bolder;
+  text-decoration: underline;
+  padding-top:50px;
+
+}
+
+#mission p{
+  font-family:'Belleza', serif;
+  font-weight:bold;
+  text-align:justify;
+  font-size:28px;
+  color:black;
+
+}
+
+#mission span{
+  color:black;
+  font-weight:bolder;
+}
+
+/**********GALLERY*********/
+#gallery {
+  background: #3e92aa;
+  margin:0px;
+  padding:0px;
+  height:800px;
+}
+#gallery h4{
+  font-family:'Ayra',sans-serif;
+  font-size:32px;
+  font-weight: bolder;
+  text-decoration:underline;
+  padding-top: 50px;
+}
+
+ #gallery img{
+  height:80%;
+ width:20%;
+float:right;
+ }
+
+/**********SERVICES********/
+
+#services  {
+  background: #2e5965;
+
+  }
+
+#services h4{
+font-family:'Ayra',sans-serif;
+font-size:32px;
+font-weight: bolder;
+text-decoration:underline;
+padding-top: 50px;
+  }
+
+
+
+#services ul li {
+  font-family: 'Arya', sans-serif;
+  font-size:25px;
+  color:black;
+
+}
+
+#services img{
+height:70%;
+width:70%;
+float:right;
+display: inline;
+padding:25px;
+}
+
+/*********CONTACT*******/
+
+#contact{
+  background: #18353d;
+
+  }
+
+#contact img{
+  width:50%;
+  height:50%;
+  float:right;
+}
+
+#contact h3{
+  font-family:'Ayra',sans-serif;
+  font-size:32px;
+  font-weight: bolder;
+  text-decoration: underline;
+  padding-top: 50px;
+}
+#contact p{
+  font-family: 'Julius Sans One', sans-serif;
+  color:black;
+  font-size:25px;
+  text-align:center;
+  padding-top:30px;
+}
+
+#contact p span{
+  color:black;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size:46px;
+
+}
+
+
+/********FOOTER********/
+
+
+
+#footer{
+  clear:both;
+  text-align:center;
+  font-family: 'Croissant One', serif;
+  font-weight:bolder;
+  font-size:30px;
+  margin:0px;
+  padding:0px;
+  border-top: white solid 18px;
+  border-bottom:white solid 25px;
+}
