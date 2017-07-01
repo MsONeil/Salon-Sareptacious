@@ -16,8 +16,8 @@ margin: 0 auto;
 
 
 .half-width {
-      width: 49%;
-      display: inline-block;
+width: 49%;
+display: inline-block;
 }
 .third-width {
 display:inline-block;
@@ -30,8 +30,11 @@ header{
   height:800px;
   background:#ffffaa;
   border-top:white solid 10px;
-  background: url('../img/mural1.png');
-  background-size: cover;
+  background-color: #f7d4f7;
+  background: url('../img/wallpaper.png');
+
+
+
 }
 
 
@@ -46,7 +49,7 @@ nav ul li {
 nav ul li a  {
     text-transform: uppercase;
     font-size: 18px;
-    color: white;
+    color: #610769;
     padding-left: 80px;
     font-family:'Arya', serif;
 
@@ -55,11 +58,11 @@ nav ul li a  {
 
 header h1 {
     width: 1000px;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 82px;
     line-height: 80px;
     color: white;
-    text-shadow: 5px 4px #020403;
+    text-shadow: 2px 4px #020403;
     padding-top: 180px;
 
   }
@@ -68,7 +71,7 @@ header h1 {
       font-family: 'Arya', sans-serif;
       font-size: 60px;
       line-height: 80px;
-      color: black;
+      color: white;
       padding-top: : 80px;
       margin:0px;
   }
@@ -95,6 +98,7 @@ header h1 {
   font-weight:bolder;
   text-decoration: underline;
   padding-top:50px;
+  color:#610769;
 
 }
 
@@ -103,7 +107,7 @@ header h1 {
   font-weight:bold;
   text-align:justify;
   font-size:28px;
-  color:black;
+  color:white;
 
 }
 
@@ -114,10 +118,10 @@ header h1 {
 
 /**********GALLERY*********/
 #gallery {
-  background: #3e92aa;
+  background: url('../img/salon-logo.png') repeat;
   margin:0px;
   padding:0px;
-  height:800px;
+  height:1200px;
 }
 #gallery h4{
   font-family:'Ayra',sans-serif;
@@ -125,18 +129,19 @@ header h1 {
   font-weight: bolder;
   text-decoration:underline;
   padding-top: 50px;
+  color:#610769;
 }
 
  #gallery img{
   height:80%;
  width:20%;
-float:right;
+ float:right;
  }
 
 /**********SERVICES********/
 
 #services  {
-  background: #2e5965;
+  background: #0bfad0;
 
   }
 
@@ -146,6 +151,7 @@ font-size:32px;
 font-weight: bolder;
 text-decoration:underline;
 padding-top: 50px;
+color:#610769;
   }
 
 
@@ -153,7 +159,7 @@ padding-top: 50px;
 #services ul li {
   font-family: 'Arya', sans-serif;
   font-size:25px;
-  color:black;
+  color:white;
 
 }
 
@@ -168,7 +174,7 @@ padding:25px;
 /*********CONTACT*******/
 
 #contact{
-  background: #18353d;
+background:white;
 
   }
 
@@ -184,6 +190,7 @@ padding:25px;
   font-weight: bolder;
   text-decoration: underline;
   padding-top: 50px;
+  color:#610769;
 }
 #contact p{
   font-family: 'Julius Sans One', sans-serif;
